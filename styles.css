@@ -1,0 +1,221 @@
+body{
+    margin: 0;  	
+	padding: 0; 
+    width: 100%;
+    background-image: url(./background.jpeg);
+    background-repeat:initial;
+    opacity: 0.7;
+    border: 1px solid black;
+    
+}
+
+#container{
+    	
+	width: 100%;  	
+    background-color:none;
+    border: 1px solid black;
+    border-bottom: 10px;
+    
+ 
+  
+
+}
+
+#logo{
+   
+    margin-left:15px;
+    margin-top: 10px;
+    width: 150px;
+    background-color:none;
+    position: absolute;
+    border: 1px solid black;
+
+}
+#img-logo{
+
+background-color: blueviolet;
+
+
+}
+
+#mainnav{
+
+
+    background-color:none;
+    border: 1px solid black;
+    padding: 2px 0;
+	height: 50px;
+    width: 100%;
+
+}
+
+#mainnav ul{
+
+	padding: 5px;
+	list-style-type: none;
+    border: 1px solid black;
+    margin-top:3px;
+    margin-left: 60%;
+    width: 450px;
+    height: 28px;
+}
+
+#mainnav li{
+  
+    display: inline;/*Mantem os menus um do lado do outro */
+    border-right: 1px solid #C4C769;
+    background-image: url(./mainnav.jpeg);
+    border: 5px solid rgba(60, 56, 56, 0.7);
+    padding: 5px;
+   
+    
+ 
+   
+    
+
+}
+
+#mainnav li a {
+
+
+	text-decoration: none;
+	color: #272900;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+   
+    
+    
+}
+    
+    
+#mainnav li a:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: #272900;
+        }
+	
+
+#mainnav li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #272900;
+	}
+
+
+
+
+marquee{
+    color: white;
+    width: 300px;
+    font-size: 70px;
+    margin-left: 120px;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: rgb(198, 148, 208) 0.1em 0.1em 0.2em;
+    font-family: 'Sacramento', cursive;;
+    font-weight: bolder;
+    
+}
+
+
+
+
+#personal-image{
+    float: right;  	
+	width: 600px;
+    height: 600px; 
+    margin-right: 13px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color:none;
+    border: 1px solid black;
+
+
+}
+.imagefloat{
+    background-color: rgb(79, 76, 76,0.7);
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    padding: 20px;/*O padding [e como se fosse o espaco da moldura com a foto.*/
+   margin-left: 70px;
+   margin-top: 50px;
+
+  
+
+}
+
+#contents{
+    background-color:none;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 620px;
+    height: 800px;
+    margin-left: 10px;
+
+}
+
+.blogentry{
+    float: left;  	
+	width: 500px;  	
+	background-image: url(./blogentry.png);
+    opacity: 0.5;
+    border: 8px solid rgb(79, 76, 76,0.7);;
+     margin: 60px 0 0 10px; 
+    height: 600px;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+  
+
+
+}
+
+.blogentry h2{
+    text-align: center;
+
+}
+
+.blogentry h2 a{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 50px;
+
+}
+.blogentry h3{
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+.blogentry p{
+    text-align: center;
+
+}
+
+#footer{
+    clear: both; 
+    background-color:black;
+    border: 1px solid black;
+    width: 100%;
+    height: 20px;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
